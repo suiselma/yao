@@ -14,7 +14,7 @@
 #  docker run -d -p 5099:5099 yaoapp/yao:0.9.1-amd64-dev
 #
 # ===========================================
-FROM ubuntu:24.04
+FROM ubuntu:24.10
 ARG VERSION
 ARG ARCH
 RUN groupadd -r yao && useradd -r -g yao yao && \
