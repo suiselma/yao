@@ -12,7 +12,7 @@
 #  docker run --rm -it -v ./test:/data yaoapp/yao-build:0.10.4 /bin/bash
 #
 # ===========================================
-FROM ubuntu:24.04
+FROM ubuntu:24.10
 WORKDIR /app
 ADD build.sh /app/build.sh
 ENV PATH=$PATH:/usr/local/go/bin:/root/go/bin
